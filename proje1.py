@@ -13,3 +13,8 @@ def flatten(input_list):
 input_data = [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
 output_data = flatten(input_data)
 print(output_data)  # [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
+
+# extend -> Listeleri tek bir liste altında birleştirir. Bir listeyi, başka bir listenin elemanlarıyla birleştirir ve tüm elemanları mevcut listeye ekler.
+
+# append -> Bir listeye tek bir eleman ekler; eğer eklenen eleman bir listeyse, o listeyi bir bütün olarak ekler.
+# Bu nedenle, alt listelerin elemanlarını birleştirmek istiyorsan, extend kullanmak daha uygun
